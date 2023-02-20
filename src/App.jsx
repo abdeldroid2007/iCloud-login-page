@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { HiDotsHorizontal } from 'react-icons/hi'
 import { BsApple } from 'react-icons/bs'
 
-
 import Home from './components/Home'
 
 function App() {
@@ -21,7 +20,7 @@ function App() {
 
   return (
     <div className="bg-gray-100 w-full h-screen block overflow-x-hidden " >
-      <nav className="flex absolute h-100 justify-between px-4 py-2 bg-transparent decoration-transparent backdrop-blur-lg  w-screen">
+      <nav className="flex absolute h-100 justify-between px-4 py-2 bg-transparent decoration-transparent backdrop-blur-lg w-screen">
 
         <div className="flex text-xl bold items-center">
           <BsApple style={{ color: "gray"}}/>

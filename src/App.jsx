@@ -26,9 +26,9 @@ function App() {
           <BsApple style={{ color: "gray"}}/>
             iCloud
           </div>
-        <div className="text-2xl cursor-pointer hover:bg-gray-200 rounded-lg" onClick={handleSet}>
+        <div className="text-2xl cursor-pointer rounded-lg" onClick={handleSet}>
           <HiDotsHorizontal />
-          { state === true ? <div className="absolute shadow-2xl right-4 top-8 w-48 h-8 bg-white text-base text-blue-400 border border-gray-300 py-5 px-4 flex justify-center items-center rounded-2xl">iCloud User Guide</div> : ''}
+          { state === true ? <div className="absolute shadow-2xl right-4 top-8 w-48 h-8 bg-transparent text-base text-blue-400 border border-gray-300 py-5 px-4 flex justify-center items-center rounded-2xl">iCloud User Guide</div> : ''}
         </div>
 
       </nav>

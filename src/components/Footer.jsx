@@ -11,7 +11,7 @@ const Footer = () => {
         <button className="p-2">Terms & Conditions</button>
       </div>
       <div className="flex my-auto"> 
-      Copyright © 2023 Apple Inc. All rights reserved.
+      Copyright © 2023 Apple Inc.<br className="sm:hidden"/> All rights reserved.
 
       </div>
     </footer>
